@@ -1,3 +1,4 @@
+const sound = document.querySelector('audio');
 
 setInterval(() => {
   const ele = document.querySelector(".clock");
@@ -14,4 +15,3 @@ setInterval(() => {
   sound.play();
 }, 1000);
 
-const sound = document.querySelector('audio');
